@@ -24,6 +24,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
 						Hola soy javi
+						hola soy batman
         </p>
       </div>
       <p className="read-the-docs">
