@@ -1,12 +1,12 @@
+# Ignora cosas pesadas/comunes
 node_modules
 dist
 .git
-Dockerfile
-Dockerfile.*
-docker-compose*.yml
-docker
-.env*
+*.log
 .vscode
 .idea
-coverage
-*.log
+
+# (si tienes estas líneas, QUITAR o excepcionar)
+docker
+!docker/nginx/
+!docker/nginx/machinescorp.conf
