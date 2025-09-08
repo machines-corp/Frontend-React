@@ -1,0 +1,41 @@
+/* Estilos para el componente Home */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row1 aside {
+    width: 50%;
+}
+
+.row1 section {
+    width: 50%;
+}
+
+.row2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row3 aside {
+    width: 50%;
+}
+
+.row3 section {
+    width: 50%;
+}
