@@ -4,6 +4,7 @@ import Chat from './pages/chats/chat'
 import Nabvar from './components/nabvar/nabvar'
 import Footer from './components/footer/footer'
 import Header from './components/header/header'
+import JobPostingForm from './pages/forms/JobPostingForm'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/chat' element={<Chat />} />
+        <Route path='/job-form' element={<JobPostingForm />} />
       </Routes>
       <Footer />
     </BrowserRouter>
