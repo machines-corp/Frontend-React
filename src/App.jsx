@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home/home'
 import Chat from './pages/chats/chat'
+import Perfil from './pages/perfil/perfil'
 import Nabvar from './components/nabvar/nabvar'
 import Footer from './components/footer/footer'
 import Header from './components/header/header'
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/chat' element={<Chat />} />
         <Route path='/job-form' element={<JobPostingForm />} />
+        <Route path="/perfil" element={<Perfil />} />
       </Routes>
       <Footer />
     </BrowserRouter>

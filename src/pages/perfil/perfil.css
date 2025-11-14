@@ -1,0 +1,120 @@
+.perfil-container {
+  max-width: 420px;
+  margin: 24px auto;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+.perfil-title {
+  text-align: center;
+  margin-bottom: 16px;
+  color: #0d8abc;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.field label {
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.ui-input,
+.ui-select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.ui-input:focus,
+.ui-select:focus {
+  border-color: #0d8abc;
+  outline: none;
+}
+
+.perfil-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.btn-primary {
+  flex: 1;
+  background-color: #0d8abc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #0b6f92;
+}
+
+.btn-secondary {
+  flex: 1;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #cacaca;
+}
+
+/* Vista perfil */
+.perfil-view {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.perfil-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.perfil-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #0d8abc;
+}
+
+.perfil-name {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.perfil-email {
+  margin: 2px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.perfil-role {
+  color: #0d8abc;
+  font-size: 0.85rem;
+}
+
+.perfil-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}

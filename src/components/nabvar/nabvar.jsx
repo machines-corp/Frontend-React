@@ -22,21 +22,23 @@ function Nabvar(){
                             className={`nav-link ${location.pathname === '/chat' ? 'active' : ''}`}
                         >
                             <span className="nav-icon">💬</span>
-                            <span className="nav-text">Chat IA</span>
+                            <span className="nav-text">Chat Bot</span>
                             <div className="nav-glow"></div>
                         </Link>
                         <Link to="/job-form" 
-                            className={`nav-link ${location.pathname === '/chat' ? 'active' : ''}`}
+                            className={`nav-link ${location.pathname === '/job-form' ? 'active' : ''}`}
                         >
                             <span className="nav-icon">💼</span>
                             <span className="nav-text">Ofertas</span>
                             <div className="nav-glow"></div>
                         </Link>
-                        <div className="nav-link">
+                        <Link to="/perfil" 
+                            className={`nav-link ${location.pathname === '/perfil' ? 'active' : ''}`}
+                        >
                             <span className="nav-icon">👤</span>
                             <span className="nav-text">Perfil</span>
                             <div className="nav-glow"></div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className="nav-background">
